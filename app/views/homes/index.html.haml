@@ -2,6 +2,10 @@
 
 #home_index
   %h1 Change image real time
-  %image{src: @url}
-  .day
-    = '現在の時間は' + @now
+  .contents
+    .img_container
+      %image{src: @url}
+    .text_container
+      %p.question 現在の時間は?
+      %p.ans
+        = @now

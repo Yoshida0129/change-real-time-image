@@ -1,3 +1,44 @@
 // Place all the styles related to the homes controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+*{
+  margin: 0;
+}
+#home_index{
+  width: 100%;
+  h1{
+    background-color: #EEEE77;
+    font-family: serif;
+  }
+  .contents {
+    text-align: center;
+    .img_container{
+      background-color: #666666;
+      display: flex;
+      justify-content: center;
+      img{
+        width: 50%;
+        height: 100%;
+      }
+    }
+    .text_container {
+      width: 50%;
+      margin: 0 auto;
+      .question {
+        margin-right: 50%;
+        padding: 20px;
+        border-radius: 0 10% 10% 0 / 0 50% 50% 0;
+        background-color: #EE77EE;
+      }
+      .ans{
+        margin: {
+          top: 20px;
+          left: 30%;
+        }
+        padding: 20px;
+        border-radius: 10% 0 0 10%/ 50% 0 0 50%;
+        background-color: #77EEEE;
+      }
+    }
+  }
+}
